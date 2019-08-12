@@ -1,5 +1,7 @@
 package CreationalPatterns.SingeltonPattern;
 
+import java.util.Objects;
+
 public class ClassSingleton {
 
     private static ClassSingleton classSingleton;
@@ -11,7 +13,7 @@ public class ClassSingleton {
     }
 
     public static ClassSingleton getInstance() {
-        if (classSingleton == null) {
+        if (Objects.isNull(classSingleton)) {
             classSingleton = new ClassSingleton();
         }
         return classSingleton;
