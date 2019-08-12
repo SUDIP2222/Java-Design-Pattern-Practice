@@ -1,6 +1,6 @@
 package CreationalPatterns.FactoryPattern;
 
-public class FactoryDriver {
+public class FactoryPatternTest {
     public static void main(String args[]) {
         PolygonFactory polygonFactory = new PolygonFactory();
 
