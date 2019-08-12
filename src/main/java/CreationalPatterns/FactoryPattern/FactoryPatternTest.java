@@ -1,13 +1,19 @@
 package CreationalPatterns.FactoryPattern;
 
+import java.util.Objects;
+
 public class FactoryPatternTest {
     public static void main(String args[]) {
         PolygonFactory polygonFactory = new PolygonFactory();
 
         Polygon triangle = polygonFactory.getPolygon(1);
-        System.out.println(triangle.getType());
+        if(!Objects.isNull(triangle)) {
+            System.out.println(triangle.getType());
+        }
 
         Polygon square = polygonFactory.getPolygon(2);
-        System.out.println(square.getType());
+        if(!Objects.isNull(square)) {
+            System.out.println(square.getType());
+        }
     }
 }
