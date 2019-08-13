@@ -1,5 +1,7 @@
 package CreationalPatterns.AbstractFactoryPattern;
 
+//Abstract factory groups object factories that have a common theme.
+
 public class AbstractFactoryTest {
     public static void main(String args[]) {
         AbstractFactory abstractFactory;

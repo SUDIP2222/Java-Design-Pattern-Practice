@@ -1,5 +1,7 @@
 package CreationalPatterns.BuilderPattern;
 
+//Builder constructs complex objects by separating construction and representation
+
 public class BuliderPatternTest {
     public static void main(String args[]) {
         BankAccount bankAccount = new BankAccount

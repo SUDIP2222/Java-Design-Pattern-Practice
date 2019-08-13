@@ -2,6 +2,8 @@ package CreationalPatterns.FactoryPattern;
 
 import java.util.Objects;
 
+//Factory method creates objects without specifying the exact class to create.
+
 public class FactoryPatternTest {
     public static void main(String args[]) {
         PolygonFactory polygonFactory = new PolygonFactory();
